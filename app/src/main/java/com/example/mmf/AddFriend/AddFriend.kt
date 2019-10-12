@@ -10,7 +10,7 @@ import com.example.mmf.R
 import kotlinx.android.synthetic.main.add_friend.*
 import java.lang.Exception
 
-class AddStudent : AppCompatActivity() {
+class AddFriend : AppCompatActivity() {
 
     var id = 0
     override fun onCreate(savedInstanceState: Bundle?) {
