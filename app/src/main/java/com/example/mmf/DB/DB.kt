@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper
 import android.database.sqlite.SQLiteQueryBuilder
 import android.widget.Toast
 
-class DbStudent(context: Context) {
+class DB(context: Context) {
 
     var dbName = "MyFriend"
     var dbTable = "Friend"
