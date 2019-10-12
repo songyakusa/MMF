@@ -10,6 +10,7 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import androidx.appcompat.widget.SearchView
 import com.example.mmf.AddFriend.AddFriend
 import com.example.mmf.DB
 import com.example.mmf.Friand.Friend
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         LoadQuery("%")
     }
 
+    @SuppressLint("ServiceCast")
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)

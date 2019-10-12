@@ -8,7 +8,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp">
+        android:layout_marginTop="50dp">
         <!-- app:cardBackgroundColor="@color/gray"
          app:cardElevation="3dp"
          app:cardCornerRadius="3dp"
@@ -59,18 +59,19 @@
                 android:orientation="horizontal">
                 <ImageButton
                     android:id="@+id/deleteBtn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:layout_marginEnd="5dp"
+                    android:background="#e4c001"
                     android:src="@drawable/ic_action_delete"
                     android:layout_marginRight="5dp" />
 
                 <ImageButton
                     android:id="@+id/updateBtn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:layout_marginEnd="5dp"
-
+                    android:background="#e43301"
                     android:src="@drawable/ic_action_update"
                     android:layout_marginRight="5dp" />
 

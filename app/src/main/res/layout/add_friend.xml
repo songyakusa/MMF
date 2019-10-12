@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddFriend.AddFriend">
+    tools:context=".AddFriend.AddFriend"
+    android:background="#012d44">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -19,7 +20,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="#e43301">
 
             <EditText
                 android:paddingStart="10dp"
@@ -27,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:background="@null"
+                android:background="#ffff"
                 android:hint="Name"
                 android:textSize="25sp"
                 android:inputType="text"
@@ -40,17 +42,18 @@
                 android:layout_marginTop="2dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
-                android:background="@color/colorPrimaryDark" />
+                android:background="#ffff" />
             <EditText
                 android:paddingStart="10dp"
                 android:id="@+id/edt_tel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:background="@null"
+                android:background="#ffff"
                 android:hint="Tel"
                 android:textSize="25sp"
                 android:inputType="number"
+                android:maxLength="10"
                 tools:ignore="Autofill,RtlSymmetry"
                 android:paddingLeft="10dp" />
             <View
@@ -60,14 +63,14 @@
                 android:layout_marginTop="2dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
-                android:background="@color/colorPrimaryDark" />
+                android:background="#ffff" />
             <EditText
                 android:paddingStart="10dp"
                 android:id="@+id/edt_Email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:background="@null"
+                android:background="#ffff"
                 android:hint="Email"
                 android:textSize="25sp"
                 android:inputType="textEmailAddress"
@@ -78,15 +81,18 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <Button
+    <ImageButton
         android:onClick="addStudent"
         android:id="@+id/save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_save"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
         android:layout_gravity="end"
-        android:text="save"
         android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp" />
+        android:layout_marginRight="20dp"
+        android:background="#e43301"/>
+
+
 
 
 </LinearLayout>
